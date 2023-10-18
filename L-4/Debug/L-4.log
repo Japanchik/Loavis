@@ -1,0 +1,27 @@
+﻿Построение начато 11.10.2023 18:12:44.
+     1>Проект "D:\users\22VVV1\L-4\L-4\L-4\L-4.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\L-4.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\users\22vvv1\l-4\l-4\l-4\main.cpp(105): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+     1>d:\users\22vvv1\l-4\l-4\l-4\main.cpp(118): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+     1>d:\users\22vvv1\l-4\l-4\l-4\main.cpp(136): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\users\22VVV1\L-4\L-4\Debug\L-4.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\L-4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\users\22VVV1\L-4\L-4\Debug\L-4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\users\22VVV1\L-4\L-4\Debug\L-4.lib" /MACHINE:X86 Debug\main.obj
+         LINK : не найден или не выполнена сборка D:\users\22VVV1\L-4\L-4\Debug\L-4.exe при последней инкрементной компоновке; выполняется полная компоновка
+         L-4.vcxproj -> D:\users\22VVV1\L-4\L-4\Debug\L-4.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\users\22VVV1\L-4\L-4\Debug\L-4.exe;#1" /manifest "Debug\L-4.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Debug\L-4.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\L-4.lastbuildstate".
+     1>Построение проекта "D:\users\22VVV1\L-4\L-4\L-4\L-4.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.24
